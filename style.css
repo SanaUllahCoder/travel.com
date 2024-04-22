@@ -1,0 +1,235 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+    padding-left: 0%;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    background: gray;
+    ;
+}
+
+/* Navigation Bar CSS is Ended */
+
+.h2 {
+    text-align: center;
+    padding-top: 630px;
+    color: white;
+    font-weight: 400px;
+}
+
+.bgimages {
+    background-image: url(ny.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.band {
+    text-align: center;
+    padding-top: 50px;
+    margin: 1px 350px;
+
+}
+
+.band img {
+    height: 200px;
+
+}
+
+.band h3 {
+    font-style: italic;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.tours {
+    padding: 1px 300px;
+}
+
+
+.tour {
+    padding-bottom: 40px;
+    background: #000;
+    color: white;
+    text-align: center;
+
+}
+
+.tour h1 {
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+
+.dates {
+
+    background: white;
+    color: black;
+    text-align: left;
+    margin: 0px 30px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.dates button {
+    border: none;
+    background: orangered;
+    margin: 3px;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 40px;
+}
+
+.dates span {
+    background: #000;
+    border-radius: 100%;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: white;
+    float: right;
+}
+
+.dates p {
+    padding-left: 10px;
+    /* justify-items: center;
+    justify-content: center; */
+}
+
+.cardss {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.caard img {
+    height: 200px;
+    padding-left: 0px;
+}
+
+.caard {
+    background: white;
+    color: black;
+}
+
+
+.caard h3 {
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+.caard button {
+    /* margin-top: 20px; */
+    border: none;
+    /* padding-left: 20px; */
+    padding: 10px;
+    color: white;
+    background: black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.caard button:hover {
+    background: gray;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contact p {
+    color: gray;
+    padding-bottom: 20px;
+}
+
+#inp3 {
+    padding: 10px 350px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+.contact input {
+    padding-left: 10px;
+    padding: 10px 50px;
+}
+
+.contact button {
+    padding: 10px 242px;
+    margin-top: 15px;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+
+footer {
+    padding: 100px;
+    text-align: center;
+
+
+}
+
+footer a {
+    text-decoration: underline;
+    color: black;
+
+}
