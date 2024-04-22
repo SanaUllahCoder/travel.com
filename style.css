@@ -10,6 +10,7 @@ nav {
     padding: 20px;
     padding-left: 0%;
     position: fixed;
+    box-shadow: 0px 6px 4px 0px #686262;
     width: 100%;
 }
 
