@@ -16,7 +16,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    display: flex-box;
+    display: inline-block;
 }
 
 nav ul li {
